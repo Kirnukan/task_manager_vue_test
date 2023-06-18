@@ -1,0 +1,38 @@
+.task-form {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-form input {
+    flex-grow: 1;
+    margin-right: 1rem;
+}
+
+.btn-home {
+    display: block;
+    width: max-content;
+    margin: 2rem auto 0;
+}
+
+.btn-home:hover {
+    background-color: #2c3e50;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
